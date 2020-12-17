@@ -104,7 +104,7 @@ nav a:hover, nav .active a{
 
 .ret1{
     background-color: #43ace0;
-    padding: 20px;
+    padding: 12px;
     color:#ffffff;
     flex:1
 
@@ -112,14 +112,14 @@ nav a:hover, nav .active a{
 
 .ret2{
     background-color: #0d48c7;
-    padding: 20px;
+    padding: 12px;
     color:#ffffff;
     flex:1
 }
 
 .ret3{
     background-color: #410ca3;
-    padding: 20px;
+    padding: 12px;
     color:#ffffff;
     flex:1
 
@@ -251,15 +251,15 @@ article .news_resume {
 
 .cima1 {
     background-color:#39aae1;
-    width: 330px;
+    flex:1
 }
 .cima2 {
     background-color:#0079c7;
-    width: 330px;
+    flex:1;
 }
 .cima3 {
     background-color:#2b4c99;
-    width: 330px;
+    flex:1;
 }
 
 footer{
@@ -272,7 +272,6 @@ footer{
     display: flex;
     flex:1;
     color: #fff;
-    justify-content: space-between;
 }
 
 footer .widget_title_text{
@@ -292,7 +291,61 @@ footer .widget_title_text{
     flex:1;
 }
 
+@media only screen and (max-width:800px) {
+    .container{
+        flex-direction: column;
+      
+    }
 
+    .logo, .menu{
+        justify-content: center;
+    }
+
+    .textoFoto h3{
+
+        font-size: 50px;
+       
+    }
+    .textoFoto h5{
+        font-size:17px;
+        text-shadow: 0px 1px 0px #555555;
+        width: 50%;
+    }
+
+    .textoFoto{
+        margin-left:40px ;
+    }
+    
+    .cima1,.cima2,.cima3, .fim{
+        display: flex;
+      
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+     header {
+		height:auto;
+	}
+    
+    .retangAzuis{
+        height: auto;
+    }
+
+    .acabou{
+        display: flex;
+        justify-content: center;
+    }
+
+    #geral{
+      padding-left: 20px;
+    }
+
+    .retangAzuis a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 
