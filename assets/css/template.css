@@ -295,13 +295,16 @@ footer .widget_title_text{
 }
 
 #bot{
-    display: block;
+    display: none;
     background-color: #39aae1;
     color:#fff;
     padding:5px;
 }
 
 @media only screen and (max-width:600px) {
+    #bot{
+        display: block;
+    }
     #botaoMenu{
         display: none;
     }
