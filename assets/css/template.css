@@ -299,6 +299,7 @@ footer .widget_title_text{
     background-color: #39aae1;
     color:#fff;
     padding:5px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width:600px) {
@@ -307,11 +308,12 @@ footer .widget_title_text{
     }
     #botaoMenu{
         display: none;
+        flex: 2;
     }
 
     nav{
         display: none;
-        margin-top: 15px;
+        margin-top: 100px;
     }
     
     header .container {
@@ -324,7 +326,7 @@ footer .widget_title_text{
     .menu{
         display: flex;
         flex-direction: column;
-        
+        justify-content:center;
     }
     .logo{
         
@@ -333,7 +335,7 @@ footer .widget_title_text{
     }
 
     .menu{
-        padding-right: 20px;
+        padding-right: 42px;
     }
 
     nav ul{
@@ -366,9 +368,7 @@ footer .widget_title_text{
         flex-direction: column;
     }
 
-     header {
-		height:auto;
-	}
+     
     
     .retangAzuis{
         height: auto;
@@ -388,6 +388,15 @@ footer .widget_title_text{
         display: flex;
         justify-content: center;
         width: 100px;
+    }
+
+    header{
+        position: relative;
+        
+    }
+    nav li a{
+        color:rgb(2, 2, 156);
+        font-weight: bold;
     }
 }
 
