@@ -290,7 +290,27 @@ footer .widget_title_text{
     flex:1;
 }
 
+.botaoMenu{
+    display: none;
+}
+
+#bot{
+    display: block;
+    background-color: #39aae1;
+    color:#fff;
+    padding:5px;
+}
+
 @media only screen and (max-width:600px) {
+    #botaoMenu{
+        display: none;
+    }
+
+    nav{
+        display: none;
+        margin-top: 15px;
+    }
+    
     header .container {
         flex-direction: row;
         padding: 20px;
@@ -298,11 +318,15 @@ footer .widget_title_text{
     .container{
         flex-direction: column;
     }
-
-    .logo, .menu{
-        justify-content: center;
+    .menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .logo{
+        
         font-size: 14px;
-        padding-left: 20px;
+        padding-left: 7px;
     }
 
     .menu{
